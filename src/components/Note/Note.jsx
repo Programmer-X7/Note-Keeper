@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import "./note.css";
 
 const Note = () => {
   return (
-    <div>
-      <p>Note</p>
+    <div className="note">
+      <h1>This is the note title</h1>
+      <p>This is the note content</p>
     </div>
-  )
-}
+  );
+};
 
-export default Note
+export default Note;
