@@ -1,5 +1,6 @@
 import React from "react";
 import "./note.css";
+import { MdDelete } from 'react-icons/md';
 
 const Note = (props) => {
   function handleClick() {
@@ -10,7 +11,7 @@ const Note = (props) => {
     <div className="note">
       <h1>{props.title}</h1>
       <p>{props.content}</p>
-      <button onClick={handleClick}>DELETE</button>
+      <button onClick={handleClick}><MdDelete /></button>
     </div>
   );
 };
