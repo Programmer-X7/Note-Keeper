@@ -10,4 +10,5 @@ body {
   background: #eee;
   padding: 0 0px;
   background-image: url("./assets/cubes.png");
+  min-height: 100vh;
 }
